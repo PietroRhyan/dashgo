@@ -7,7 +7,6 @@ export function MyApp({ Component, pageProps }: AppProps)  {
     <ChakraProvider theme={theme}>
       <Component {...pageProps} />
     </ChakraProvider>
-
   )
 }
 
